@@ -1,5 +1,6 @@
 package com.example.devruwanrathnayake.trip_plan;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -68,7 +69,8 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.hotel_booking) {
-            // Handle the camera action
+            Intent intent = new Intent(this, HotelBooking.class);
+            startActivity(intent);
         } else if (id == R.id.Transport) {
 
         } else if (id == R.id.nav_slideshow) {

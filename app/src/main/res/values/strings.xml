@@ -10,4 +10,6 @@
     <string name="Transport">Transport</string>
     <string name="food">Food Ordering</string>
     <string name="visit">Places to Visit</string>
+    <string name="title_activity_hotel_booking">HotelBooking</string>
+    <string name="textview">Hotel Name</string>
 </resources>
