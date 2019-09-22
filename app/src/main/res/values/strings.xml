@@ -34,4 +34,5 @@
     <string name="title_activity_hotel_details">HotelDetails</string>
     <string name="update">Update</string>
     <string name="delete">Delete</string>
+    <string name="Phoenix">Phoenix™</string>
 </resources>
