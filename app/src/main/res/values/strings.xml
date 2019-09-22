@@ -12,4 +12,15 @@
     <string name="visit">Places to Visit</string>
     <string name="title_activity_hotel_booking">HotelBooking</string>
     <string name="textview">Hotel Name</string>
+    <string name="hotel">Hotel Name</string>
+    <string name="title_activity_hotel_form">Booking Details</string>
+    <string name="title_activity_hotels_booking">Hotel Booking</string>
+    <string name="in">Check in Date</string>
+    <string name="out">Check out Date</string>
+    <string name="send">Send</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="mobno">Mobile No.</string>
+    <string name="reg_no">How Many Rooms</string>
+    <string name="type">Room Type</string>
 </resources>

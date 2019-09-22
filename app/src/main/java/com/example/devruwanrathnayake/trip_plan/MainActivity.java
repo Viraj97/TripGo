@@ -14,6 +14,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.google.firebase.database.DatabaseReference;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -69,7 +71,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.hotel_booking) {
-            Intent intent = new Intent(this, HotelBooking.class);
+            Intent intent = new Intent(this, HotelsBooking.class);
             startActivity(intent);
         } else if (id == R.id.Transport) {
 
