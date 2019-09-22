@@ -18,8 +18,7 @@
             android:layout_gravity="center"
             android:focusableInTouchMode="false"
             android:orientation="vertical"
-            android:padding="10dp"
-            android:background="#ffff">
+            android:padding="10dp">
 
 
             <android.support.design.widget.TextInputLayout
