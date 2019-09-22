@@ -8,6 +8,7 @@ public class form {
         private String roomtype;
         private String in;
         private String out;
+        private String NIC;
 
     public form() {
         this.customerName = customerName;
@@ -17,6 +18,7 @@ public class form {
         this.roomtype = roomtype;
         this.in = in;
         this.out = out;
+        this.NIC = NIC;
     }
 
 
@@ -75,5 +77,13 @@ public class form {
 
     public void setOut(String out) {
         this.out = out;
+    }
+
+    public String getNIC() {
+        return NIC;
+    }
+
+    public void setNIC(String NIC) {
+        this.NIC = NIC;
     }
 }

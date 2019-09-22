@@ -10,9 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".HotelDetails"
+            android:label="@string/title_activity_hotel_details"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".userdetails"
+            android:label="@string/title_activity_userdetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".HotelsBooking"
             android:label="@string/title_activity_hotels_booking"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HotelForm"
             android:label="@string/title_activity_hotel_form"
