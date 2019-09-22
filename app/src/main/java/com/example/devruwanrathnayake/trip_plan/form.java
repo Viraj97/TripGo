@@ -1,15 +1,13 @@
 package com.example.devruwanrathnayake.trip_plan;
 
-import android.widget.DatePicker;
-
 public class form {
         private String customerName;
         private String email;
         private String tp;
         private String rooms;
         private String roomtype;
-        private DatePicker in;
-        private DatePicker out;
+        private String in;
+        private String out;
 
     public form() {
         this.customerName = customerName;
@@ -63,7 +61,7 @@ public class form {
         this.roomtype = roomtype;
     }
 
-    public DatePicker getIn() {
+    public String getIn() {
         return in;
     }
 
@@ -71,7 +69,7 @@ public class form {
         this.in = in;
     }
 
-    public DatePicker getOut() {
+    public String getOut() {
         return out;
     }
 
