@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "616266916070-1f4fghv5dni7kpped4b5fe266fmepq00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.devruwanrathnayake.trip_plan",
+            "certificate_hash": "e18de89611bab135def5312f36d2eb1fa658e95e"
+          }
+        },
+        {
+          "client_id": "616266916070-1psf7sd04c4el0lrqp0l7rt4m25f2h15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.devruwanrathnayake.trip_plan",
+            "certificate_hash": "533f79cbb1a639a2a0bb640b826d05c9bba9fdc7"
+          }
+        },
+        {
           "client_id": "616266916070-ih5mi7ks678k4pvttehp9at91ighnuje.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

@@ -1,9 +1,221 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bbback"
+    android:orientation="vertical"
     tools:context=".FoodMenu">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Menu"
+            android:textStyle="italic"
+            android:textSize="35sp"
+            android:textColor="#fff"
+            android:textAlignment="center"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        
+        <TextView
+            android:layout_weight="1"
+            android:text="Pizza Italiano
+
+                            Rs.1090"
+            android:textStyle="italic"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/button1"
+            android:text="Add"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Mac and Cheese
+                            Rs.1060"
+            android:textStyle="italic"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:text="Add"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:text="Garlic Bread
+                            Rs.980"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:text="Add"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:text="Caramel Crust
+                            Rs.499"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_weight="1"
+            android:text="Add"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:text="Chicken Dinner
+                            Rs.2780"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_weight="1"
+            android:text="Add"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:text="Beef Burger
+                            Rs.3049"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_weight="1"
+            android:text="Add"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Place Order"
+        android:background="@drawable/button_rounded"
+        android:textColor="#fff"
+        />
+
+</LinearLayout>
