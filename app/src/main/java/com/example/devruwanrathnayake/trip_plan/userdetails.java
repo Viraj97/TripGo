@@ -25,5 +25,13 @@ public class userdetails extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        final Button viewplaces = (Button) findViewById(R.id.viewplaces);
+        viewplaces.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(userdetails.this,placesDetails.class);
+                startActivity(intent);
+            }
+        });
     }
 }

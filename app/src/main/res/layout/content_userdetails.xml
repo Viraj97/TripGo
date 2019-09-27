@@ -17,7 +17,7 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="100dp"
         android:background="@drawable/centre_button"
-        android:text="@string/vTransport"
+        android:text="@string/vPlaces"
         android:textColor="@color/whiteTextColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,7 +29,7 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/centre_button"
-        android:text="@string/vFood"
+        android:text="@string/vTransport"
         android:textColor="@color/whiteTextColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewFood" />
@@ -55,7 +55,7 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/centre_button"
-        android:text="@string/visit"
+        android:text="@string/vFood"
         android:textColor="@color/whiteTextColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewplaces" />
