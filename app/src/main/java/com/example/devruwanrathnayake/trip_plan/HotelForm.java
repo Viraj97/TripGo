@@ -79,19 +79,19 @@ public class HotelForm extends AppCompatActivity {
                 databaseReference = FirebaseDatabase.getInstance().getReference().child("Hotel");
                 try {
                     if(TextUtils.isEmpty(customerName.getText().toString())){
-                        Toast.makeText(getApplicationContext(), "Plase Enter Your Name", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Enter Your Name", Toast.LENGTH_SHORT).show();
                     }
                     else if(TextUtils.isEmpty(tp.getText().toString())){
-                        Toast.makeText(getApplicationContext(), "Plase Enter Telephone Number", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Please Enter Phone Number", Toast.LENGTH_SHORT).show();
                     }
                     else if(TextUtils.isEmpty(email.getText().toString())){
-                        Toast.makeText(getApplicationContext(), "Plase Enter Your email", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Enter Your email", Toast.LENGTH_SHORT).show();
                     }
                     else if(TextUtils.isEmpty(rooms.getText().toString())){
-                        Toast.makeText(getApplicationContext(), "Plase Enter number of Rooms", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Please Enter number of Rooms", Toast.LENGTH_SHORT).show();
                     }
                     else if(TextUtils.isEmpty(NIC.getText().toString())){
-                        Toast.makeText(getApplicationContext(), "Plase Enter Your NIC", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Please Enter Your NIC", Toast.LENGTH_SHORT).show();
                     }
                     else {
                         form.setCustomerName(customerName.getText().toString().trim());
@@ -104,7 +104,7 @@ public class HotelForm extends AppCompatActivity {
                         form.setNIC(NIC.getText().toString().trim());
                         databaseReference.push().setValue(form);
                         databaseReference.child(NIC.getText().toString().trim()).setValue(form);
-                        Toast.makeText(getApplicationContext(), "Your Booking added Successfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Successfully Added", Toast.LENGTH_SHORT).show();
                     }
                     } finally {
                     clearControls();

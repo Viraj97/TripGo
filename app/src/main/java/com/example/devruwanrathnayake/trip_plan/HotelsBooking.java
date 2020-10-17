@@ -21,7 +21,7 @@ public class HotelsBooking extends AppCompatActivity {
         ImageButton cinnamon = (ImageButton) findViewById(R.id.cinnamon);
         ImageButton taj = (ImageButton) findViewById(R.id.taj);
         ImageButton shangrilla = (ImageButton) findViewById(R.id.shangrilla);
-        ImageButton amaya = (ImageButton) findViewById(R.id.amaya);
+        ImageButton amari = (ImageButton) findViewById(R.id.amari);
         ImageButton galle = (ImageButton) findViewById(R.id.galle);
 
 
@@ -44,7 +44,7 @@ public class HotelsBooking extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        amaya.setOnClickListener(new View.OnClickListener() {
+        amari.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(HotelsBooking.this,HotelForm.class);
                 startActivity(intent);
